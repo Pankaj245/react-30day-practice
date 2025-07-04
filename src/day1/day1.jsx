@@ -133,12 +133,10 @@ const Day1 = () => {
   return (
     <div className="container">
       <h2> Topic - Build a Profile Card (Props, defaultProps, PropTypes) </h2>
-
       <div className="restaurant-menu">
         <div className="title">Annapurna Restaurant</div>
         <div className="card-section">
           {restaurantMenu?.map((item) => (
-            //   console.log(item)
             <Card
               key={item?.id}
               name={item?.name}
