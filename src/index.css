@@ -1,1 +1,66 @@
-body { font-family: sans-serif; margin: 0; padding: 1rem; }
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-block-end: 15px;
+}
+.card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-container {
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: relative;
+  margin-block-end: 10px;
+
+  img {
+    margin-inline: auto;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .information {
+    padding: 0 20px 20px;
+    h5 {
+      font-weight: 500;
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+    .info {
+      padding-block: 2px;
+    }
+  }
+  .circle {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 15px;
+  }
+}
