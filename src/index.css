@@ -89,3 +89,24 @@ p {
     color: white;
   }
 }
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 30px;
+  .label {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .password-container {
+    input {
+      font-size: 20px;
+    }
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+}
