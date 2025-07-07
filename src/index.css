@@ -167,6 +167,10 @@ p {
   h2 {
     margin: 10px;
   }
+  label {
+    font-size: 20px;
+    margin-right: 10px;
+  }
   input {
     width: 300px;
     font-size: 20px;
