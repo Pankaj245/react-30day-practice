@@ -204,3 +204,18 @@ p {
     padding: 5px 15px;
   }
 }
+.user-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    margin: 0 0 10px 0;
+  }
+  ul {
+    margin: 0;
+    li {
+      font-size: 18px;
+      padding-bottom: 5px;
+    }
+  }
+}
