@@ -4,12 +4,14 @@ import Day2 from "./Day2/Day2";
 import Day3 from "./Day3/Day3";
 import Day4 from "./Day4/Day4";
 import Day5 from "./Day5/Day5";
-import Day6 from "./Day 6/Day6";
+import Day6 from "./Day6/Day6";
+import Day7 from "./Day7/Day7";
 
 function App() {
   return (
     <div>
       <h1>React 30-Day - 30 concepts</h1>
+      <Day7 />
       <Day6 />
       <Day5 />
       <Day4 />

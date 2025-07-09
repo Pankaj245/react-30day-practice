@@ -1,0 +1,47 @@
+/* Base button styles */
+.btn {
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Variants */
+.btn.primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn.danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn.outline {
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #333;
+}
+
+/* Sizes */
+.btn.sm {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.btn.md {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.btn.lg {
+  font-size: 20px;
+  padding: 12px 24px;
+}
